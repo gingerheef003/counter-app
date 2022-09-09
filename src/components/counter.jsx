@@ -5,8 +5,10 @@ class Counter extends Component {
         count: 1,
     };
 
+    
+
     handleIncrement() {
-        console.log('Increment Clicked');
+        console.log('Increment Clicked', this);
     }
 
     render() {
